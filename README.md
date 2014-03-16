@@ -1,5 +1,5 @@
 # What is this?
-Load "fuse4x.kext" kernel extension when OS X start.
+Load "fuse4x.kext" kernel extension when OS X start for using s3.
 
 # How to use?
 Before using this script, you must install fuse4x.
@@ -8,7 +8,7 @@ Before using this script, you must install fuse4x.
 % sudo cp -rfX /usr/local/Cellar/fuse4x-kext/$FUSE4X_VERSION/Library/Extensions/fuse4x.kext /System/Library/Extensions/
 % sudo chmod +s /System/Library/Extensions/fuse4x.kext/Support/load_fuse4x
 ```
-Please replace $FUSE4X_VERSION to fuse4x-kext installed.
+Please replace $FUSE4X_VERSION to version of fuse4x-kext installed.
 
 Type following commands:
 ```shell
